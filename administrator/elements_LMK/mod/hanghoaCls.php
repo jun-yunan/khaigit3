@@ -6,6 +6,16 @@ if (file_exists($s)){
 } else {
     $f ='./administrator/elements_LMK/mod/database.php';
 }
+
+// ------------------------------------------------------------
+// $s ='../../elements_LMK/mod/database.php';
+// if (file_exists($s)){
+//     $f=$s;
+// } else {
+//     $f ='./elements_LMK/mod/database.php';
+// }
+
+// -----------------------------------------------------
 require_once $f;
 class hanghoa extends Database{
     public function HanghoaGetAll() {

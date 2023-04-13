@@ -8,6 +8,19 @@ else {
 }
 require_once $f;
 
+// ------------------------------------------------------
+
+// $r = '../../elements_LMK/mod/database.php';
+// if (file_exists($r)) {
+//     $f = $r;
+// }
+// else {
+//     $f = './elements_LMK/mod/database.php';
+// }
+// require_once $f;
+
+// ------------------------------------------------------
+
 class loaihang extends database {
     public function LoaihangGetAll() {
         $getAll = $this->connect->prepare("select * from loaihang");

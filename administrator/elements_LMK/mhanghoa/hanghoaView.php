@@ -1,5 +1,6 @@
 <?php
-require_once './administrator/elements_LMK/mod/loaihangCls.php';
+// require_once './administrator/elements_LMK/mod/loaihangCls.php';
+require_once './elements_LMK/mod/loaihangCls.php';
 $obj = new loaihang();
 $list_loaihang = $obj->LoaihangGetAll();
 ?>

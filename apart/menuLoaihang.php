@@ -11,7 +11,6 @@ $obj = new loaihang();
 $list_loaihang = $obj->LoaihangGetAll();
 
 if (is_array($list_loaihang) || is_object($list_loaihang)) {
-    echo "is array or object";
 
     foreach ($list_loaihang as $v) {
         ?>
@@ -25,7 +24,7 @@ if (is_array($list_loaihang) || is_object($list_loaihang)) {
     }
 }
 else {
-    echo "not array or object";
+    echo "";
 }
 
 ?>
